@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+
+    <!-- css linking -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="carousel">
+        <button class="carousel-btn carousel-btn-left is-hidden">
+            <img src="images/left-arrow.svg" alt="left">
+        </button>
+        <div class="carousel-container">
+            <ul class="carousel-track">
+                <li class="carousel-slide current-slide">
+                    <img class="carousel-image" src="images/ford-recreate.jpg" alt="ford">
+                </li>
+                <li class="carousel-slide">
+                    <img class="carousel-image" src="images/lady-3627257.jpg" alt="lady">
+                </li>
+                <li class="carousel-slide">
+                    <img class="carousel-image" src="images/Ql7YSZm.jpg" alt="idk">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel-btn carousel-btn-right">
+            <img src="images/arrow-point-to-right.svg" alt="right">
+        </button>
+
+        <div class="carousel-nav">
+            <button class="carousel-indicators current-slide"></button>
+            <button class="carousel-indicators"></button>
+            <button class="carousel-indicators"></button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
